@@ -18,15 +18,15 @@ export default function Home() {
               <span className="text-accent">Ayesha</span>
             </h1>
             <p className="max-w-[500px] text-[14px] mb-9 mt-2 text-white/80">
-              Hi, I'm Ayesha, a 19-year-old web Developer from Karachi Pakistan.
-              I’ve also developed a strong interest in web development.
-               I’m Expertise in HTML, CSS, and
+              Hi Im Ayesha, a 19-year-old web Developer from Karachi Pakistan.
+              Ive also developed a strong interest in web development.
+               Im Expertise in HTML, CSS, and
               JavaScript, TypeScript TailwindCSS to create responsive and
               functional websites. Looking ahead, I'm also planning to dive
               deeper React into frameworks like Next.js Powerful Framework ro
               enhance to deliver high-quality modern web solutions. My goal is
               to combine my passion for learning with technical expertise to
-              create efficient, user-friendly digital experiences. Let’s
+              create efficient, user-friendly digital experiences. Lets
               collaborate and bring your ideas to life!
             </p>
 

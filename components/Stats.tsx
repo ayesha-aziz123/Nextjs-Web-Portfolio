@@ -1,5 +1,5 @@
 "use client";
-import CountUp, { useCountUp } from "react-countup";
+import CountUp from "react-countup";
 
 const stats = [
   {
@@ -27,9 +27,8 @@ const Stats = () => {
         <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto">
           {stats.map((item, index) => {
             return (
-              <div className="flex-1 flex gap-4 justify-center items-center xl:justify-start">
+              <div key={index} className="flex-1 flex gap-4 justify-center items-center xl:justify-start">
                 <CountUp
-                  key={index}
                   end={item.num}
                   duration={5}
                   delay={2}

@@ -1,27 +1,24 @@
 "use client";
-import React from "react";
+import Tilt from "react-parallax-tilt";
 import Image from "next/image";
 
-// Define the props Type
-
-type Props = {
-  service: {
-    id: number;
-    title: string;
-    description: string;
-    icon: any;
-  };
+// Type props
+type props = {
+    service: {
+        id: number;
+        title: string;
+        description: string;
+        icon: string;
+      };
 };
 
-const ServiceCard = ({ service }: Props) => {
+const ServiceCard = ({ service }:props) => {
   return (
-    <div  className="p-6 shadow-2xl rounded-lg bg-[#2f2f2f] ">
-      <Image src={service.icon} alt={service.title} height={60} width={60} />
-      <h1 className="font-bold text-gray-100 mt-4 text-xl">{service.title}</h1>
-      <p className="text-white text-sm mt-3 opacity-80">
-        {service.description}
-      </p>
-    </div>
+    <Tilt className="shadow-2xl rounded-lg p-6 bg-blue-900">
+      <Image src={service.icon} alt={service.title} width={50} height={50} />
+      <h1 className="mt-4 text-lg font-bold text-gray-100">{service.title}</h1>
+      <p className="mt-3 text-sm text-white text-opacity-80">{service.description}</p>
+    </Tilt>
   );
 };
 

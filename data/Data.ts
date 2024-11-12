@@ -1,58 +1,187 @@
+export const BaseInfo = {
+  name: "Ayesha",
+  position: "Frontened Web Developer",
+  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+  profilePic: "/images/dp2.jpg"
+}
 
-import a from "@/public/s1.png"
-import b from "@/public/s2.png"
-import c from "@/public/s3.png"
-import d from "@/public/s4.png"
-import e from "@/public/s5.png"
-import f from "@/public/s6.png"
+export const aboutInfo = {
+  title: "Crafting Web Application with Passion and Precision",
+  description: "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+  client: "50+",
+  experience: "1+",
+  project: "150+",
+  website: "80+"
 
+}
 
 export const servicesData = [
   {
     id: 1,
     title: " Web Applications",
     description: "Tailored web apps built with the latest technologies.",
-    icon: a,
+    icon: "/s1.png",
   },
   {
     id: 2,
     title: "E-commerce Websites",
     description:
       "Secure online stores with user-friendly shopping.",
-    icon: b,
+    icon: "/s2.png",
   },
   {
     id: 3,
     title: "API Integration",
     description:
       "Seamless integration for smooth data sharing.",
-    icon: c,
+    icon: "/s3.png",
   },
   {
     id: 4,
     title: "User Interfaces",
     description:
       "Engaging, responsive front-end designs and user experiences.",
-    icon: d,
+    icon: "/s4.png",
   },
   {
     id: 5,
     title: "Speed Optimization",
     description: "Boost performance with faster load times and optimization.",
-    icon: e,
+    icon: "/s7.png",
   },
   {
     id: 6,
     title: "Website Management",
     description: "Easy content management systems with flexible controls.",
-    icon: f,
+    icon: "/s8.png",
+  },
+];
+
+
+export const projectData = [
+  {
+    id: 1,
+    image: "/p3.PNG",
+    url: "https://milestone1-static-interactive-resume-builder-ayesha.vercel.app/"
+  },
+  {
+    id: 2,
+    image: "/p6.PNG",
+    url: "https://coffee-web-a.vercel.app/"
+  },
+  {
+    id: 3,
+    image: "/p.PNG",
+    url: "https://milestone-2-assiangment-a.vercel.app/"
+  },
+  {
+    id: 4,
+    image: "/p1.PNG",
+    url: "https://adventure-website-ayesha.vercel.app/"
+  },
+  {
+    id: 5,
+    image: "/p2.PNG",
+    url: "https://tic-tac-toe-game-ayesha.vercel.app/"
+  },
+  {
+    id: 5,
+    image: "/p7.PNG",
+    url: "https://my-portfolio-ayesha-aziz.vercel.app/"
+  },
+]
+
+
+
+export const skillsData = [
+  {
+    id: 1,
+    title: "React",
+    image: "/react.svg",
+    percent: "75%",
+  },
+  {
+    id: 2,
+    title: "CSS",
+    image: "/css.svg",
+    percent: "95%",
+  },
+  {
+    id: 3,
+    title: "JavaScript",
+    image: "/js.svg",
+    percent: "75%",
+  },
+  {
+    id: 4,
+    title: "TypeScript",
+    image: "/ts.svg",
+    percent: "80%",
+  },
+  {
+    id: 5,
+    title: "HTML",
+    image: "/html.svg",
+    percent: "95%",
+  },
+  {
+    id: 6,
+    title: "Node JS",
+    image: "/node.svg",
+    percent: "50%",
+  },
+  {
+    id: 7,
+    title: "Python",
+    image: "/python.svg",
+    percent: "50%",
+  },
+  {
+    id: 8,
+    title: "Next.JS",
+    image: "/nextCustom.svg",
+    percent: "75%",
+  },
+
+];
+
+export const clientReviews = [
+  {
+    name: "John Doe",
+    review:
+      "Exceptional service! The team delivered exactly what we needed on time. Very professional",
+    rating: 5,
+    profession: "Marketing Manager",
+    image: "/u1.jpg",
+  },
+  {
+    name: "Jane Smith",
+    review:
+      "Highly skilled developers who understand the client's vision and execute perfectly.",
+    rating: 4.8,
+    profession: "Business Owner",
+    image: "/u2.jpg",
+  },
+  {
+    name: "Michael Johnson",
+    review:
+      "Great communication and excellent results. Our new site performs beautifully.",
+    rating: 4.6,
+    profession: "Project Coordinator",
+    image: "/u3.jpg",
+  },
+  {
+    name: "Emily Brown",
+    review:
+      "Professional, efficient, and highly knowledgeable. Would definitely recommend",
+    rating: 4.9,
+    profession: "Creative Director",
+    image: "/u4.jpg",
   },
 ];
 
 export const contactData = {
   phone: "+923131148362",
-  email: "ayesha121@gmail.com",
+  email: "ayesha12@gmail.com",
   address: "Karachi , Pakistan",
 };
-
-

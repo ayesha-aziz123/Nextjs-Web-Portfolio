@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Footer = () => {
   return (
-    <div className='pt-16 px-3 lg:px-4 pb-16 bg-[#0f0715]'>
+    <div className='pt-16 px-3 lg:px-4 pb-10 bg-[#0f0715]'>
         <div>
             <Image src={"/images/logo1.png"} width={100} height={100} alt={"logo"} className=""/>
         </div>
@@ -14,7 +14,8 @@ const Footer = () => {
             <div>Review.</div>
             <div>Contact.</div>
         </div>
-        <p className="text-white text-opacity-60 text-center mt-6 text-[13px] lg:text-[18px] ">© 2024 All Rights Reserved by WebDev Warriors</p>
+        <p className="text-white text-opacity-60 text-center mt-6 text-[13px] lg:text-[18px] ">© 2024 All Rights Reserved </p>
+        <p className="text-white text-opacity-90 text-center mt-1 text-[13px] lg:text-[18px]">Made by Ayesha</p>
     </div>
   )
 }

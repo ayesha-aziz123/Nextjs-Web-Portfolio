@@ -1,13 +1,13 @@
 export const BaseInfo = {
   name: "Ayesha",
   position: "Frontened Web Developer",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+  description: "Hi Im Ayesha, a 19-year-old web Developer from Karachi Pakistan. Ive also developed a strong interest in web development. Im Expertise in HTML, CSS, and JavaScript, TypeScript TailwindCSS to create responsive and functional websites. Looking ahead, I'm also planning to dive deeper React into frameworks like Next.js Powerful Framework ro enhance to deliver high-quality modern web solutions. My goal is to combine my passion for learning with technical expertise to create efficient, user-friendly digital experiences. Lets collaborate and bring your ideas to life!",
   profilePic: "/images/dp2.jpg"
 }
 
 export const aboutInfo = {
   title: "Crafting Web Application with Passion and Precision",
-  description: "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+  description: "At webdev warriors, were a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
   client: "50+",
   experience: "1+",
   project: "150+",

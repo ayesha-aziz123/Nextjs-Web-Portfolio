@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 const ContactForm = () => {
   async function handleSubmit(event: any) {

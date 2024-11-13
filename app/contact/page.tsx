@@ -9,16 +9,11 @@ const Contact = () => {
       <SectionHeading>Contact Me</SectionHeading>
       <div className="grid grid-cols-1 lg:grid-cols-2 w-[90%] sm:w-[80%] mx-auto items-center gap-10 mt-10">
         {/* Contact Form */}
-        <div data-aos="fade-left" data-aos-anchor-placement="top-center">
+        <div>
           <ContactForm />
         </div>
         {/* Contact info */}
-        <div
-          data-aos="fade-right"
-          data-aos-anchor-placement="top-center"
-          data-aos-delay="100"
-          className="xl:mx-auto"
-        >
+        <div>
           <ContactInfo />
         </div>
       </div>

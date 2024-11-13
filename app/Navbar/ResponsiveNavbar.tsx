@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { useState } from "react";
 import MobileNav from "./MobileNav";
 import Nav from "./Nav";

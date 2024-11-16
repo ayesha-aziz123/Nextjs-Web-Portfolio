@@ -30,6 +30,7 @@ const ReviewCard = ({ reviews }: props) => {
           height={50}
         />
       </div>
+      
       <div
         className="px-6 py-3 mb-3 w-fit mx-auto rounded-full flex items-center space-x-3 bg-indigo-900
     text-white font-bold"

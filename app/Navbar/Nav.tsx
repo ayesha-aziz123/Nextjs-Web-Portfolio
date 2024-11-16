@@ -5,15 +5,13 @@ import { HiBars3BottomRight } from "react-icons/hi2";
 import Link from "next/link";
 
 // Props Type
+type props = {
+  openNav: () => void;
+};
 
-type props ={
-openNav:()=>void
-}
+const Nav = ({ openNav }: props) => {
+  const [navBg, setNavBg] = useState();
 
-const Nav = ({openNav}:props) => {
-
-  const [navBg,setNavBg] = useState();
-  
   return (
     <div className="fixed h-[14vh] z-[10] bg-blue-950 w-full">
       <div
@@ -24,9 +22,9 @@ const Nav = ({openNav}:props) => {
         <Image
           src={"/images/logo1.png"}
           alt={"logo"}
-          width={80}
-          height={80}
-          className="ml-[-1.5rem] sm:ml-0"
+          width={70}
+          height={70}
+          className="ml-[0.3rem] sm:ml-0"
         />
         {/* NAV LINKS */}
         <div className="flex items-center space-x-10 ">
@@ -42,12 +40,19 @@ const Nav = ({openNav}:props) => {
 
           {/* BUTTON */}
           <div className="flex items-center space-x-4 ">
-            <Link  className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg" target="_blank" href={"https://github.com/ayesha-aziz123"}>
+            <Link
+              className="md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white hover:bg-gray-200 transition-all duration-200 rounded-lg"
+              target="_blank"
+              href={"https://github.com/ayesha-aziz123"}
+            >
               Hire me
             </Link>
 
             {/* BURGER MENU */}
-            <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-white lg:hidden" />
+            <HiBars3BottomRight
+              onClick={openNav}
+              className="w-8 h-8 cursor-pointer text-white lg:hidden"
+            />
           </div>
         </div>
       </div>

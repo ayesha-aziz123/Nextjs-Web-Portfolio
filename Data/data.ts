@@ -1,13 +1,15 @@
+import { title } from "process";
+
 export const BaseInfo = {
   name: "Ayesha",
-  position: "Frontened Web Developer",
-  description: "Hi Im Ayesha, a 19-year-old web Developer from Karachi Pakistan. Ive also developed a strong interest in web development. Im Expertise in HTML, CSS, and JavaScript, TypeScript TailwindCSS to create responsive and functional websites. Looking ahead, I'm also planning to dive deeper React into frameworks like Next.js Powerful Framework ro enhance to deliver high-quality modern web solutions. My goal is to combine my passion for learning with technical expertise to create efficient, user-friendly digital experiences. Lets collaborate and bring your ideas to life!",
+  position: " Web Developer",
+  description: "I specialize in building scalable, high-performance web applications using Next.js, Tailwind CSS, and Sanity CMS. With a keen eye for clean UI and efficient development, I focus on creating seamless digital experiences.I am constantly exploring new technologies to enhance my skill set and stay ahead in the evolving tech industry. My goal is to contribute to impactful projects, optimize user experiences, and push the boundaries of modern web development.Beyond coding, I aspire to inspire and guide aspiring developers, fostering a collaborative and innovative tech community",
   profilePic: "/images/dp2.jpg"
 }
 
 export const aboutInfo = {
   title: "Crafting Web Application with Passion and Precision",
-  description: "At webdev warriors, were a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+  description: "I'm Ayesha, a 19-year-old in Full Stack Developer with expertise in Html, CSS, TypeScript, Next.js, Tailwind CSS, and Sanity CMS. I specialize in building scalable, high-performance web applications with a focus on clean UI and seamless user experience.I am always eager to learn, adapt, and innovate, ensuring my skills stay aligned with the latest tech trends. My goal is to contribute to impactful projects while inspiring and mentoring aspiring developers.",
   client: "50+",
   experience: "1+",
   project: "150+",
@@ -61,33 +63,40 @@ export const servicesData = [
 export const projectData = [
   {
     id: 1,
-    image: "/p3.PNG",
-    url: "https://milestone1-static-interactive-resume-builder-ayesha.vercel.app/"
+    image: "/p12.PNG",
+    url: "https://milestone1-static-interactive-resume-builder-ayesha.vercel.app/",
+    title:"Static Resume"
   },
   {
     id: 2,
-    image: "/p6.PNG",
-    url: "https://coffee-web-a.vercel.app/"
+    image: "/p8.PNG",
+    url: "https://full-stack-ecommerce-aa.vercel.app/",
+    title:"FullStack Ecommerce"
+
   },
   {
     id: 3,
     image: "/p.PNG",
-    url: "https://milestone-2-assiangment-a.vercel.app/"
+    url: "https://milestone-2-assiangment-a.vercel.app/",
+    title:"Food Website"
   },
   {
     id: 4,
-    image: "/p1.PNG",
-    url: "https://adventure-website-ayesha.vercel.app/"
+    image: "/p10.PNG",
+    url: "https://hackathon-3-hekto-aa.vercel.app/",
+    title:"FullStack Website"
   },
   {
     id: 5,
-    image: "/p2.PNG",
-    url: "https://tic-tac-toe-game-ayesha.vercel.app/"
+    image: "/p9.PNG",
+    url: "https://milestone3-ecommerce-aa.vercel.app/",
+    title:"Makeup Webiste"
   },
   {
     id: 5,
-    image: "/p7.PNG",
-    url: "https://my-portfolio-ayesha-aziz.vercel.app/"
+    image: "/p11.PNG",
+    url: "https://blog-app-m3.vercel.app/",
+    title:"Blog Website"
   },
 ]
 
@@ -126,9 +135,9 @@ export const skillsData = [
   },
   {
     id: 6,
-    title: "Node JS",
-    image: "/node.svg",
-    percent: "50%",
+    title: "Tailwind CSS",
+    image: "/tailwind.svg",
+    percent: "95%",
   },
   {
     id: 7,
@@ -140,7 +149,7 @@ export const skillsData = [
     id: 8,
     title: "Next.JS",
     image: "/nextCustom.svg",
-    percent: "75%",
+    percent: "90%",
   },
 
 ];

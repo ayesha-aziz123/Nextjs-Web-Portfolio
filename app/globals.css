@@ -15,3 +15,14 @@
   }
 }
  
+.custome-scrollbar::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+}
+.custome-scrollbar::-webkit-scrollbar-track{
+  background: #4402f8;
+}
+.custome-scrollbar::-webkit-scrollbar-thumb{
+  background: #c277fa;
+  border-radius: 4px;
+}

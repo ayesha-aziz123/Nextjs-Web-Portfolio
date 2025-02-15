@@ -13,7 +13,7 @@ const About = () => {
           <h1 className="text-bg text-[26px]  sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200">
             {aboutInfo.title}
           </h1>
-          <p className="mt-6 text-base text-gray-500">{BaseInfo.description}</p>
+          <p className="mt-6 text-base text-gray-500">{aboutInfo.description}</p>
           <div className="mt-8">
             <div className="flex items-center space-x-2 mb-6 ">
               <div className="w-7 h-7 p-1 bg-blue-800 flex flex-col items-center justify-center">

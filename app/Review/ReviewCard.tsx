@@ -21,7 +21,7 @@ const ReviewCard = ({ reviews }: props) => {
     <div className="rounded-md overflow-hidden bg-[#140c1c] m-4">
       <div className="p-6 ">
         <Image src="/q.jpg" alt="image" width={50} height={50} />
-        <p className="text-white text-opacity-70">{review}</p>
+        <p className="text-white text-lg text-opacity-70">{review}</p>
         <Image
           src="/q.jpg"
           alt="image"
@@ -35,7 +35,7 @@ const ReviewCard = ({ reviews }: props) => {
         className="px-6 py-3 mb-3 w-fit mx-auto rounded-full flex items-center space-x-3 bg-indigo-900
     text-white font-bold"
       >
-        <span>{rating}/5</span>
+        <span className="text-md">{rating}/5</span>
         <FaStar className="text-yellow-500" />
       </div>
       <div className="bg-gray-100">
@@ -44,8 +44,8 @@ const ReviewCard = ({ reviews }: props) => {
                 <Image src={image} alt={name} width={40} height={40} className="rounded-full"/>
             </div>
             <div>
-                <h1 className="text-">{name}</h1>
-                <p>{profession}</p>
+                <h1 className="text-[18px]">{name}</h1>
+                <p className="text-[15px]">{profession}</p>
             </div>
         </div>
       </div>

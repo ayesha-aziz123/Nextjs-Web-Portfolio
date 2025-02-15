@@ -1,5 +1,6 @@
 "use client";
 
+
 const ContactForm = () => {
   async function handleSubmit(event: any) {
     event.preventDefault();
@@ -20,7 +21,7 @@ const ContactForm = () => {
     });
     const result = await response.json();
     if (result.success) {
-      console.log(alert("message sumitted"));
+      console.log(alert("Message submitted✔😊"));
       window.location.reload();
     }
   }

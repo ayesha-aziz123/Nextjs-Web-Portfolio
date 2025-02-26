@@ -80,7 +80,7 @@ const About = () => {
               width={80}
               height={80}
             />
-            <p className="mt-3 font-bold text-xl text-white text-center">{aboutInfo.projects} </p>
+            <p className="mt-3 font-bold text-xl text-white text-center">{aboutInfo.project} </p>
             <p className="text-base sm:text-lg text-gray-400 text-center">Completed Project</p>
           </div>
           {/* 4 */}

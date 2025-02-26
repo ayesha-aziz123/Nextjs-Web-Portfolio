@@ -10,9 +10,9 @@ export const BaseInfo = {
 export const aboutInfo = {
   title: "Crafting Web Application with Passion and Precision",
   description: "I'm Ayesha, a 19-year-old in Full Stack Developer with expertise in Html, CSS, TypeScript, Next.js, Tailwind CSS, and Sanity CMS. I specialize in building scalable, high-performance web applications with a focus on clean UI and seamless user experience.I am always eager to learn, adapt, and innovate, ensuring my skills stay aligned with the latest tech trends. My goal is to contribute to impactful projects while inspiring and mentoring aspiring developers.",
-  client: "50+",
+  client: "20+",
   experience: "1+",
-  project: "150+",
+  project: "70+",
   website: "80+"
 
 }

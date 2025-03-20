@@ -24,7 +24,7 @@ const About = () => {
               </p>
             </div>
             {/* 2 */}
-            <div className="flex items-center space-x-2 mb-6 ">
+{/*             <div className="flex items-center space-x-2 mb-6 ">
               <div className="w-7 h-7 p-1 bg-red-800 flex flex-col items-center justify-center">
                 <FaCheck className="text-white" />
               </div>
@@ -32,16 +32,16 @@ const About = () => {
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-300">
                 Backend Development
               </p>
-            </div>
+            </div> */}
             {/* 3 */}
-            <div className="flex items-center space-x-2 mb-6 ">
+{/*          <div className="flex items-center space-x-2 mb-6 ">
               <div className="w-7 h-7 p-1 bg-green-800 flex flex-col items-center justify-center">
                 <FaCheck className="text-white" />
               </div>
               <p className="text-sm sm:text-base md:text-lg font-bold text-gray-300">
                 Full Stack Development
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 

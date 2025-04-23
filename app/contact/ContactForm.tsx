@@ -31,11 +31,11 @@ const ContactForm = () => {
       <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] py-3 font-bold">
         Let&apos;s Work together
       </h1>
-      <p className="text-gray-200 mt-3 text-xs md:text-sm lg:text-base">
+{/*       <p className="text-gray-200 mt-3 text-xs md:text-sm lg:text-base">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, ea
         neque natus soluta sequi hic optio tenetur quo alias beatae dolorem
         similique
-      </p>
+      </p> */}
       {/* Form  */}
       <form
         onSubmit={handleSubmit}
